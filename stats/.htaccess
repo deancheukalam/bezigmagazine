@@ -1,0 +1,7 @@
+AuthName "bezigmagazine.com statistics"
+AuthType Basic
+AuthUserFile /home/bezigmagazine/.stats-htpasswd
+require valid-user
+<Files .stats-htpasswd>
+deny from all
+</Files>

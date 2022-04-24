@@ -1,0 +1,216 @@
+
+/* ----------------------------------- Woocommerce CSS ----------------------------------- */
+
+.woocommerce span.onsale  {
+	z-index: 1;
+	background-color: #A80000;
+}
+	
+.mn-seo-cart {
+    margin-top: 10px;
+	text-align: center;
+}
+
+.mn-seo-cart a {
+	padding: 10px;
+	font-size: 13px;
+	background: #361E10;
+	color: #E5E5E5;
+}
+
+table.shop_table.cart {
+	margin-top: 20px;
+}
+
+.mn-seo-cart a:hover {
+	color: #FFFFFF !important; 
+}
+
+.woocommerce ul.products li.product a img {
+	height: 250px;
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	-ms-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+	background: #fff;
+	box-shadow: 0px 0px 5px #aaa;
+    padding: 5px;
+}
+
+.woocommerce nav.woocommerce-pagination, .woocommerce nav.woocommerce-pagination ul, .woocommerce nav.woocommerce-pagination ul li {
+	border: none;
+}
+
+.woocommerce nav.woocommerce-pagination ul li a, .woocommerce nav.woocommerce-pagination ul li span {
+    line-height: auto; 
+	font-weight: 900;
+	background: #0071C1;
+	color: #fff !important;
+    box-shadow: inset 0 0 0 #333333, inset 0 1px 84px #333333, inset 0 0 0 #333333;
+	margin: 5px;
+	font-family: "Open Sans", Verdana, Geneva, "DejaVu Sans", sans-serif;
+}
+
+.woocommerce nav.woocommerce-pagination ul li a:hover, .woocommerce nav.woocommerce-pagination ul li span:hover {
+	background: #A50000;
+    box-shadow: none;
+	color: #fff;
+}
+
+.woocommerce nav.woocommerce-pagination ul li a:focus,
+.woocommerce nav.woocommerce-pagination ul li a:hover,
+.woocommerce nav.woocommerce-pagination ul li span.current {
+	background: #A50000;
+	box-shadow: none;	
+}
+
+.woocommerce div.product div.images img {
+	background: #fff;
+	box-shadow: inset 0 0 0 #000000, inset 0 1px 84px #000000, inset 0 0 0 #000000;
+}
+
+.woocommerce ul.products li.product a img:hover {
+	opacity: 0.6; 
+}
+
+.woocommerce .woocommerce-message {
+    border-top-color: #361E10;
+	margin-top: 18px !important;
+}
+
+.woocommerce div.product {
+	margin-top: 20px;
+}
+
+.woocommerce .woocommerce-message:before,.woocommerce div.product .stock {
+    color: #361E10;
+}
+
+
+
+button, input[type="text"], input[type="email"], input[type="url"], input[type="password"]{
+	background-color: #fff;
+    box-shadow: inset 0 0 0 #333333, inset 0 1px 1px #333333, inset 0 0 0 #333333;
+	color: #333;
+}
+
+.woocommerce ul.products li.product .price,
+.woocommerce div.product p.price, .woocommerce div.product span.price {
+    color: #361E10;
+}
+
+.woocommerce .woocommerce-ordering select {
+    padding: 5px;
+	max-width: 200px;
+}
+
+.woocommerce-checkout #payment ul.payment_methods li img {
+	width: 50px;
+}
+
+.woocommerce #payment #place_order, .woocommerce form .form-row-last, .woocommerce-page #payment #place_order, .woocommerce-page form .form-row-last {
+    float: left;
+}
+
+.woocommerce form .form-row input.input-text, .woocommerce form .form-row textarea {
+	padding: 10px;
+}
+
+input[type="text"], input[type="email"], input[type="url"], input[type="password"], input[type="search"], textarea {
+	color: #333;
+}
+
+.woocommerce #respond input#submit.alt, .woocommerce a.button.alt, .woocommerce button.button.alt, .woocommerce input.button.alt,
+.woocommerce ul.products li.product .button {
+	border: 1px solid #969696;
+	-moz-box-shadow: inset 0 30px 30px -30px #828282, inset 0 -30px 30px -30px #828282;
+    -webkit-box-shadow: inset 0 30px 30px -30px #828282, inset 0 -30px 30px -30px #828282;
+    box-shadow: inset 0 30px 30px -30px #828282, inset 0 -30px 30px -30px #828282;
+}
+
+.woocommerce #respond input#submit.alt:hover, .woocommerce a.button.alt:hover, .woocommerce button.button.alt:hover, .woocommerce input.button.alt:hover,
+.woocommerce ul.products li.product .button:hover {
+	background: #A50000;
+	color:#fff;
+	box-shadow: inset 0 0 0 #555555, inset 0 1px 84px #555555, inset 0 0 0 #555555;
+}
+
+.woocommerce-MyAccount-navigation-link  {
+	background: #A50000;
+	box-shadow: inset 0 0 0 #0071C1, inset 0 1px 84px #0071C1, inset 0 0 0 #0071C1;
+	padding: 10px;
+	border-top: 1px solid #0094FF;
+    border-bottom: 1px solid #000000;
+	list-style-type: none;
+}
+
+.woocommerce #respond input#submit.alt, .woocommerce a.button.alt, .woocommerce button.button.alt, .woocommerce input.button.alt {
+    font-size: 100%;
+    margin: 0;
+    line-height: 1;
+    cursor: pointer;
+    position: relative;
+    text-decoration: none;
+    overflow: visible;
+    padding: .618em 1em;
+    font-weight: 700;
+    border-radius: 3px;
+    left: auto;
+    color: #515151;
+    background-color: #ebe9eb;
+    border: 0;
+    white-space: nowrap;
+    display: inline-block;
+    background-image: none;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+    text-shadow: none;
+	-moz-box-shadow: inset 0 30px 30px -30px #828282, inset 0 -30px 30px -30px #828282;
+    -webkit-box-shadow: inset 0 30px 30px -30px #828282, inset 0 -30px 30px -30px #828282;
+    box-shadow: inset 0 30px 30px -30px #828282, inset 0 -30px 30px -30px #828282;	
+}
+
+.woocommerce-MyAccount-navigation-link a {
+	color: #fff;
+}
+
+.woocommerce-MyAccount-navigation-link a:hover {
+	color: #fff;
+}
+
+.woocommerce-MyAccount-navigation ul {
+	margin: 10px 0 10px 0;
+	padding: 0;
+}
+
+@media screen and (max-width: 560px) {
+
+	.woocommerce #payment #place_order, .woocommerce form .form-row-last, .woocommerce-page #payment #place_order, .woocommerce-page form .form-row-last {
+		float: left;
+		font-size: 14px;
+	}
+	
+	.woocommerce form .form-row.woocommerce-invalid .select2-container, .woocommerce form .form-row.woocommerce-invalid input.input-text, .woocommerce form .form-row.woocommerce-invalid select {
+		width: 150px;
+	}
+
+	.woocommerce table.shop_table, .woocommerce-cart table.cart td, .woocommerce-cart table.cart th {
+		width:100%;
+		margin: 0;
+		padding: 3px;
+	}
+	
+	.woocommerce ul.products li.product a img {
+		height: 120px;
+	}
+	
+	.woocommerce-cart table {
+			border: none;
+	}
+	
+	.woocommerce #respond input#submit, .woocommerce a.button, .woocommerce button.button, .woocommerce input.button {
+		font-size: 13px;
+	}
+
+}
