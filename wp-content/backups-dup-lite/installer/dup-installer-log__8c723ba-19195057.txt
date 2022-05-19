@@ -1,0 +1,408 @@
+********************************************************************************
+* DUPLICATOR-LITE: Install-Log
+* STEP-1 START @ 08:07:04
+* VERSION: 1.4.5
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+PACKAGE INFO________ CURRENT SERVER                         |ORIGINAL SERVER
+PHP VERSION_________: 8.0.18                                |7.4.29
+OS__________________: Linux                                 |WINNT
+CREATED_____________: 2022-05-19 19:50:57
+WP VERSION__________: 5.9.3
+DUP VERSION_________: 1.4.5
+DB__________________: 5.5.68
+DB TABLES___________: 13
+DB ROWS_____________: 457
+DB FILE SIZE________: 1.8MB
+********************************************************************************
+SERVER INFO
+PHP_________________: 7.4.29 | SAPI: apache2handler
+PHP MEMORY__________: 4294967296 | SUHOSIN: disabled
+SERVER______________: Apache/2.4.53 (Win64) OpenSSL/1.1.1n PHP/7.4.29
+DOC ROOT____________: "C:/xampp/htdocs/bezigmagazine"
+DOC ROOT 755________: true
+LOG FILE 644________: true
+REQUEST URL_________: "http://localhost/bezigmagazine/dup-installer/main.installer.php"
+********************************************************************************
+USER INPUTS
+ARCHIVE ACTION______: "donothing"
+ARCHIVE ENGINE______: "ziparchive"
+SET DIR PERMS_______: 0
+DIR PERMS VALUE_____: 644
+SET FILE PERMS______: 0
+FILE PERMS VALUE____: 755
+SAFE MODE___________: "0"
+LOGGING_____________: "1"
+CONFIG MODE_________: "NEW"
+FILE TIME___________: "current"
+********************************************************************************
+
+
+--------------------------------------
+ARCHIVE SETUP
+--------------------------------------
+NAME________________: "C:/xampp/htdocs/bezigmagazine/20220421_bezigmagazine_[HASH]_20220519195057_archive.zip"
+SIZE________________: 104.99MB
+
+PRE-EXTRACT-CHECKS
+- PASS: Apache '.htaccess' backed-up to .htaccess-220519200704-6286a368b3a8b-duplicator.bak
+- PASS: Existing Apache '.htaccess' was removed
+- PASS: Microsoft IIS 'web.config' not found - no backup needed.
+- PASS: WordFence '.user.ini' not found - no backup needed.
+BEFORE EXTRACION ACTIONS
+MAINTENANCE MODE ENABLE
+
+
+START ZIP FILE EXTRACTION STANDARD >>> 
+
+--------------------------------------
+ARCHIVE SETUP
+--------------------------------------
+NAME________________: "C:/xampp/htdocs/bezigmagazine/20220421_bezigmagazine_[HASH]_20220519195057_archive.zip"
+SIZE________________: 104.99MBFile timestamp set to Current: 2022-05-19 20:07:12
+<<< ZipArchive Unzip Complete: true
+--------------------------------------
+POST-EXTRACT-CHECKS
+--------------------------------------
+
+PERMISSION UPDATES: None Applied
+
+STEP-1 COMPLETE @ 08:07:12 - RUNTIME: 7.6851 sec.
+[PHP ERR][WARN] MSG:mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: YES) [CODE:2|FILE:C:\xampp\htdocs\bezigmagazine\dup-installer\classes\class.db.php|LINE:48]
+DATABASE CONNECTION ERROR: Access denied for user 'root'@'localhost' (using password: YES)[ERRNO:1045]
+
+
+
+********************************************************************************
+* DUPLICATOR-LITE INSTALL-LOG
+* STEP-2 START @ 08:07:30
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+USER INPUTS
+VIEW MODE___________: "basic"
+DB ACTION___________: "empty"
+DB HOST_____________: "**OBSCURED**"
+DB NAME_____________: "**OBSCURED**"
+DB PASS_____________: "**OBSCURED**"
+DB PORT_____________: "**OBSCURED**"
+NON-BREAKING SPACES_: false
+MYSQL MODE__________: "DEFAULT"
+MYSQL MODE OPTS_____: ""
+CHARSET_____________: "utf8"
+COLLATE_____________: "utf8_general_ci"
+COLLATE FB__________: false
+VIEW CREATION_______: true
+STORED PROCEDURE____: true
+FUNCTION CREATION___: true
+********************************************************************************
+
+--------------------------------------
+DATABASE-ENVIRONMENT
+--------------------------------------
+MYSQL VERSION:	This Server: 10.4.24 -- Build Server: 5.5.68
+FILE SIZE:	dup-database__[HASH].sql (1.04MB)
+TIMEOUT:	5000
+MAXPACK:	268435456
+SQLMODE:	NO_ZERO_IN_DATE,NO_ZERO_DATE,NO_ENGINE_SUBSTITUTION
+NEW SQL FILE:	[C:/xampp/htdocs/bezigmagazine/dup-installer/dup-installer-data__[HASH].sql]
+COLLATE FB:	Off
+--------------------------------------
+DATABASE RESULTS
+--------------------------------------
+DB VIEWS:	enabled
+DB PROCEDURES:	enabled
+DB FUNCTIONS:	enabled
+ERRORS FOUND:	0
+DROPPED TABLES:	13
+RENAMED TABLES:	0
+QUERIES RAN:	124
+
+wp_commentmeta: (0)
+wp_comments: (0)
+wp_duplicator_packages: (0)
+wp_links: (0)
+wp_options: (155)
+wp_postmeta: (95)
+wp_posts: (42)
+wp_term_relationships: (5)
+wp_term_taxonomy: (4)
+wp_termmeta: (0)
+wp_terms: (4)
+wp_usermeta: (24)
+wp_users: (1)
+Removed '25' cache/transient rows
+
+INSERT DATA RUNTIME: 0.3059 sec.
+STEP-2 COMPLETE @ 08:07:31 - RUNTIME: 0.3266 sec.
+
+====================================
+SET SEARCH AND REPLACE LIST
+====================================
+
+
+********************************************************************************
+DUPLICATOR PRO INSTALL-LOG
+STEP-3 START @ 08:07:33
+NOTICE: Do NOT post to public sites or forums
+********************************************************************************
+CHARSET SERVER:	"utf8"
+CHARSET CLIENT:	"utf8"
+********************************************************************************
+OPTIONS:
+blogname______________: "Bezig Magazine"
+postguid______________: false
+fullsearch____________: false
+path_old______________: "/home/bezigmagazine/public_html"
+path_new______________: "C:/xampp/htdocs/bezigmagazine"
+siteurl_______________: "http://localhost/bezigmagazine"
+url_old_______________: "https://bezigmagazine.com"
+url_new_______________: "http://localhost/bezigmagazine"
+maxSerializeStrlen____: 4000000
+replaceMail___________: false
+dbcharset_____________: "utf8"
+dbcollate_____________: "utf8_general_ci"
+wp_mail_______________: ""
+wp_nickname___________: ""
+wp_first_name_________: ""
+wp_last_name__________: ""
+ssl_admin_____________: false
+cache_wp______________: false
+cache_path____________: false
+exe_safe_mode_________: false
+config_mode___________: "NEW"
+********************************************************************************
+
+
+====================================
+RUN SEARCH AND REPLACE
+====================================
+
+EVALUATE TABLE: "wp_commentmeta"__________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_comments"_____________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_duplicator_packages"__________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_links"________________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_options"______________________________________[ROWS:   155][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/bezigmagazine/public_html" =================> "C:/xampp/htdocs/bezigmagazine"
+	SEARCH  2:"\/home\/bezigmagazine\/public_html" ==============> "C:\/xampp\/htdocs\/bezigmagazine"
+	SEARCH  3:"%2Fhome%2Fbezigmagazine%2Fpublic_html" ===========> "C%3A%2Fxampp%2Fhtdocs%2Fbezigmagazine"
+	SEARCH  4:"\home\bezigmagazine\public_html" =================> "C:/xampp/htdocs/bezigmagazine"
+	SEARCH  5:"\\home\\bezigmagazine\\public_html" ==============> "C:\/xampp\/htdocs\/bezigmagazine"
+	SEARCH  6:"%5Chome%5Cbezigmagazine%5Cpublic_html" ===========> "C%3A%2Fxampp%2Fhtdocs%2Fbezigmagazine"
+	SEARCH  7:"//bezigmagazine.com" =============================> "//localhost/bezigmagazine"
+	SEARCH  8:"\/\/bezigmagazine.com" ===========================> "\/\/localhost\/bezigmagazine"
+	SEARCH  9:"%2F%2Fbezigmagazine.com" =========================> "%2F%2Flocalhost%2Fbezigmagazine"
+	SEARCH 10:"//www.bezigmagazine.com" =========================> "//localhost/bezigmagazine"
+	SEARCH 11:"\/\/www.bezigmagazine.com" =======================> "\/\/localhost\/bezigmagazine"
+	SEARCH 12:"%2F%2Fwww.bezigmagazine.com" =====================> "%2F%2Flocalhost%2Fbezigmagazine"
+	SEARCH 13:"https://localhost/bezigmagazine" =================> "http://localhost/bezigmagazine"
+	SEARCH 14:"https:\/\/localhost\/bezigmagazine" ==============> "http:\/\/localhost\/bezigmagazine"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2Fbezigmagazine" =========> "http%3A%2F%2Flocalhost%2Fbezigmagazine"
+
+EVALUATE TABLE: "wp_postmeta"_____________________________________[ROWS:    95][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/bezigmagazine/public_html" =================> "C:/xampp/htdocs/bezigmagazine"
+	SEARCH  2:"\/home\/bezigmagazine\/public_html" ==============> "C:\/xampp\/htdocs\/bezigmagazine"
+	SEARCH  3:"%2Fhome%2Fbezigmagazine%2Fpublic_html" ===========> "C%3A%2Fxampp%2Fhtdocs%2Fbezigmagazine"
+	SEARCH  4:"\home\bezigmagazine\public_html" =================> "C:/xampp/htdocs/bezigmagazine"
+	SEARCH  5:"\\home\\bezigmagazine\\public_html" ==============> "C:\/xampp\/htdocs\/bezigmagazine"
+	SEARCH  6:"%5Chome%5Cbezigmagazine%5Cpublic_html" ===========> "C%3A%2Fxampp%2Fhtdocs%2Fbezigmagazine"
+	SEARCH  7:"//bezigmagazine.com" =============================> "//localhost/bezigmagazine"
+	SEARCH  8:"\/\/bezigmagazine.com" ===========================> "\/\/localhost\/bezigmagazine"
+	SEARCH  9:"%2F%2Fbezigmagazine.com" =========================> "%2F%2Flocalhost%2Fbezigmagazine"
+	SEARCH 10:"//www.bezigmagazine.com" =========================> "//localhost/bezigmagazine"
+	SEARCH 11:"\/\/www.bezigmagazine.com" =======================> "\/\/localhost\/bezigmagazine"
+	SEARCH 12:"%2F%2Fwww.bezigmagazine.com" =====================> "%2F%2Flocalhost%2Fbezigmagazine"
+	SEARCH 13:"https://localhost/bezigmagazine" =================> "http://localhost/bezigmagazine"
+	SEARCH 14:"https:\/\/localhost\/bezigmagazine" ==============> "http:\/\/localhost\/bezigmagazine"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2Fbezigmagazine" =========> "http%3A%2F%2Flocalhost%2Fbezigmagazine"
+
+EVALUATE TABLE: "wp_posts"________________________________________[ROWS:    42][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/bezigmagazine/public_html" =================> "C:/xampp/htdocs/bezigmagazine"
+	SEARCH  2:"\/home\/bezigmagazine\/public_html" ==============> "C:\/xampp\/htdocs\/bezigmagazine"
+	SEARCH  3:"%2Fhome%2Fbezigmagazine%2Fpublic_html" ===========> "C%3A%2Fxampp%2Fhtdocs%2Fbezigmagazine"
+	SEARCH  4:"\home\bezigmagazine\public_html" =================> "C:/xampp/htdocs/bezigmagazine"
+	SEARCH  5:"\\home\\bezigmagazine\\public_html" ==============> "C:\/xampp\/htdocs\/bezigmagazine"
+	SEARCH  6:"%5Chome%5Cbezigmagazine%5Cpublic_html" ===========> "C%3A%2Fxampp%2Fhtdocs%2Fbezigmagazine"
+	SEARCH  7:"//bezigmagazine.com" =============================> "//localhost/bezigmagazine"
+	SEARCH  8:"\/\/bezigmagazine.com" ===========================> "\/\/localhost\/bezigmagazine"
+	SEARCH  9:"%2F%2Fbezigmagazine.com" =========================> "%2F%2Flocalhost%2Fbezigmagazine"
+	SEARCH 10:"//www.bezigmagazine.com" =========================> "//localhost/bezigmagazine"
+	SEARCH 11:"\/\/www.bezigmagazine.com" =======================> "\/\/localhost\/bezigmagazine"
+	SEARCH 12:"%2F%2Fwww.bezigmagazine.com" =====================> "%2F%2Flocalhost%2Fbezigmagazine"
+	SEARCH 13:"https://localhost/bezigmagazine" =================> "http://localhost/bezigmagazine"
+	SEARCH 14:"https:\/\/localhost\/bezigmagazine" ==============> "http:\/\/localhost\/bezigmagazine"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2Fbezigmagazine" =========> "http%3A%2F%2Flocalhost%2Fbezigmagazine"
+
+EVALUATE TABLE: "wp_term_relationships"___________________________[ROWS:     5][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/bezigmagazine/public_html" =================> "C:/xampp/htdocs/bezigmagazine"
+	SEARCH  2:"\/home\/bezigmagazine\/public_html" ==============> "C:\/xampp\/htdocs\/bezigmagazine"
+	SEARCH  3:"%2Fhome%2Fbezigmagazine%2Fpublic_html" ===========> "C%3A%2Fxampp%2Fhtdocs%2Fbezigmagazine"
+	SEARCH  4:"\home\bezigmagazine\public_html" =================> "C:/xampp/htdocs/bezigmagazine"
+	SEARCH  5:"\\home\\bezigmagazine\\public_html" ==============> "C:\/xampp\/htdocs\/bezigmagazine"
+	SEARCH  6:"%5Chome%5Cbezigmagazine%5Cpublic_html" ===========> "C%3A%2Fxampp%2Fhtdocs%2Fbezigmagazine"
+	SEARCH  7:"//bezigmagazine.com" =============================> "//localhost/bezigmagazine"
+	SEARCH  8:"\/\/bezigmagazine.com" ===========================> "\/\/localhost\/bezigmagazine"
+	SEARCH  9:"%2F%2Fbezigmagazine.com" =========================> "%2F%2Flocalhost%2Fbezigmagazine"
+	SEARCH 10:"//www.bezigmagazine.com" =========================> "//localhost/bezigmagazine"
+	SEARCH 11:"\/\/www.bezigmagazine.com" =======================> "\/\/localhost\/bezigmagazine"
+	SEARCH 12:"%2F%2Fwww.bezigmagazine.com" =====================> "%2F%2Flocalhost%2Fbezigmagazine"
+	SEARCH 13:"https://localhost/bezigmagazine" =================> "http://localhost/bezigmagazine"
+	SEARCH 14:"https:\/\/localhost\/bezigmagazine" ==============> "http:\/\/localhost\/bezigmagazine"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2Fbezigmagazine" =========> "http%3A%2F%2Flocalhost%2Fbezigmagazine"
+
+EVALUATE TABLE: "wp_term_taxonomy"________________________________[ROWS:     4][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/bezigmagazine/public_html" =================> "C:/xampp/htdocs/bezigmagazine"
+	SEARCH  2:"\/home\/bezigmagazine\/public_html" ==============> "C:\/xampp\/htdocs\/bezigmagazine"
+	SEARCH  3:"%2Fhome%2Fbezigmagazine%2Fpublic_html" ===========> "C%3A%2Fxampp%2Fhtdocs%2Fbezigmagazine"
+	SEARCH  4:"\home\bezigmagazine\public_html" =================> "C:/xampp/htdocs/bezigmagazine"
+	SEARCH  5:"\\home\\bezigmagazine\\public_html" ==============> "C:\/xampp\/htdocs\/bezigmagazine"
+	SEARCH  6:"%5Chome%5Cbezigmagazine%5Cpublic_html" ===========> "C%3A%2Fxampp%2Fhtdocs%2Fbezigmagazine"
+	SEARCH  7:"//bezigmagazine.com" =============================> "//localhost/bezigmagazine"
+	SEARCH  8:"\/\/bezigmagazine.com" ===========================> "\/\/localhost\/bezigmagazine"
+	SEARCH  9:"%2F%2Fbezigmagazine.com" =========================> "%2F%2Flocalhost%2Fbezigmagazine"
+	SEARCH 10:"//www.bezigmagazine.com" =========================> "//localhost/bezigmagazine"
+	SEARCH 11:"\/\/www.bezigmagazine.com" =======================> "\/\/localhost\/bezigmagazine"
+	SEARCH 12:"%2F%2Fwww.bezigmagazine.com" =====================> "%2F%2Flocalhost%2Fbezigmagazine"
+	SEARCH 13:"https://localhost/bezigmagazine" =================> "http://localhost/bezigmagazine"
+	SEARCH 14:"https:\/\/localhost\/bezigmagazine" ==============> "http:\/\/localhost\/bezigmagazine"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2Fbezigmagazine" =========> "http%3A%2F%2Flocalhost%2Fbezigmagazine"
+
+EVALUATE TABLE: "wp_termmeta"_____________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_terms"________________________________________[ROWS:     4][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/bezigmagazine/public_html" =================> "C:/xampp/htdocs/bezigmagazine"
+	SEARCH  2:"\/home\/bezigmagazine\/public_html" ==============> "C:\/xampp\/htdocs\/bezigmagazine"
+	SEARCH  3:"%2Fhome%2Fbezigmagazine%2Fpublic_html" ===========> "C%3A%2Fxampp%2Fhtdocs%2Fbezigmagazine"
+	SEARCH  4:"\home\bezigmagazine\public_html" =================> "C:/xampp/htdocs/bezigmagazine"
+	SEARCH  5:"\\home\\bezigmagazine\\public_html" ==============> "C:\/xampp\/htdocs\/bezigmagazine"
+	SEARCH  6:"%5Chome%5Cbezigmagazine%5Cpublic_html" ===========> "C%3A%2Fxampp%2Fhtdocs%2Fbezigmagazine"
+	SEARCH  7:"//bezigmagazine.com" =============================> "//localhost/bezigmagazine"
+	SEARCH  8:"\/\/bezigmagazine.com" ===========================> "\/\/localhost\/bezigmagazine"
+	SEARCH  9:"%2F%2Fbezigmagazine.com" =========================> "%2F%2Flocalhost%2Fbezigmagazine"
+	SEARCH 10:"//www.bezigmagazine.com" =========================> "//localhost/bezigmagazine"
+	SEARCH 11:"\/\/www.bezigmagazine.com" =======================> "\/\/localhost\/bezigmagazine"
+	SEARCH 12:"%2F%2Fwww.bezigmagazine.com" =====================> "%2F%2Flocalhost%2Fbezigmagazine"
+	SEARCH 13:"https://localhost/bezigmagazine" =================> "http://localhost/bezigmagazine"
+	SEARCH 14:"https:\/\/localhost\/bezigmagazine" ==============> "http:\/\/localhost\/bezigmagazine"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2Fbezigmagazine" =========> "http%3A%2F%2Flocalhost%2Fbezigmagazine"
+
+EVALUATE TABLE: "wp_usermeta"_____________________________________[ROWS:    24][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/bezigmagazine/public_html" =================> "C:/xampp/htdocs/bezigmagazine"
+	SEARCH  2:"\/home\/bezigmagazine\/public_html" ==============> "C:\/xampp\/htdocs\/bezigmagazine"
+	SEARCH  3:"%2Fhome%2Fbezigmagazine%2Fpublic_html" ===========> "C%3A%2Fxampp%2Fhtdocs%2Fbezigmagazine"
+	SEARCH  4:"\home\bezigmagazine\public_html" =================> "C:/xampp/htdocs/bezigmagazine"
+	SEARCH  5:"\\home\\bezigmagazine\\public_html" ==============> "C:\/xampp\/htdocs\/bezigmagazine"
+	SEARCH  6:"%5Chome%5Cbezigmagazine%5Cpublic_html" ===========> "C%3A%2Fxampp%2Fhtdocs%2Fbezigmagazine"
+	SEARCH  7:"//bezigmagazine.com" =============================> "//localhost/bezigmagazine"
+	SEARCH  8:"\/\/bezigmagazine.com" ===========================> "\/\/localhost\/bezigmagazine"
+	SEARCH  9:"%2F%2Fbezigmagazine.com" =========================> "%2F%2Flocalhost%2Fbezigmagazine"
+	SEARCH 10:"//www.bezigmagazine.com" =========================> "//localhost/bezigmagazine"
+	SEARCH 11:"\/\/www.bezigmagazine.com" =======================> "\/\/localhost\/bezigmagazine"
+	SEARCH 12:"%2F%2Fwww.bezigmagazine.com" =====================> "%2F%2Flocalhost%2Fbezigmagazine"
+	SEARCH 13:"https://localhost/bezigmagazine" =================> "http://localhost/bezigmagazine"
+	SEARCH 14:"https:\/\/localhost\/bezigmagazine" ==============> "http:\/\/localhost\/bezigmagazine"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2Fbezigmagazine" =========> "http%3A%2F%2Flocalhost%2Fbezigmagazine"
+
+EVALUATE TABLE: "wp_users"________________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/bezigmagazine/public_html" =================> "C:/xampp/htdocs/bezigmagazine"
+	SEARCH  2:"\/home\/bezigmagazine\/public_html" ==============> "C:\/xampp\/htdocs\/bezigmagazine"
+	SEARCH  3:"%2Fhome%2Fbezigmagazine%2Fpublic_html" ===========> "C%3A%2Fxampp%2Fhtdocs%2Fbezigmagazine"
+	SEARCH  4:"\home\bezigmagazine\public_html" =================> "C:/xampp/htdocs/bezigmagazine"
+	SEARCH  5:"\\home\\bezigmagazine\\public_html" ==============> "C:\/xampp\/htdocs\/bezigmagazine"
+	SEARCH  6:"%5Chome%5Cbezigmagazine%5Cpublic_html" ===========> "C%3A%2Fxampp%2Fhtdocs%2Fbezigmagazine"
+	SEARCH  7:"//bezigmagazine.com" =============================> "//localhost/bezigmagazine"
+	SEARCH  8:"\/\/bezigmagazine.com" ===========================> "\/\/localhost\/bezigmagazine"
+	SEARCH  9:"%2F%2Fbezigmagazine.com" =========================> "%2F%2Flocalhost%2Fbezigmagazine"
+	SEARCH 10:"//www.bezigmagazine.com" =========================> "//localhost/bezigmagazine"
+	SEARCH 11:"\/\/www.bezigmagazine.com" =======================> "\/\/localhost\/bezigmagazine"
+	SEARCH 12:"%2F%2Fwww.bezigmagazine.com" =====================> "%2F%2Flocalhost%2Fbezigmagazine"
+	SEARCH 13:"https://localhost/bezigmagazine" =================> "http://localhost/bezigmagazine"
+	SEARCH 14:"https:\/\/localhost\/bezigmagazine" ==============> "http:\/\/localhost\/bezigmagazine"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2Fbezigmagazine" =========> "http%3A%2F%2Flocalhost%2Fbezigmagazine"
+--------------------------------------
+SCANNED:	Tables:13 	|	 Rows:330 	|	 Cells:2127 
+UPDATED:	Tables:3 	|	 Rows:46 	|	 Cells:53 
+ERRORS:		0 
+RUNTIME:	0.050500 sec
+
+====================================
+REMOVE LICENSE KEY
+====================================
+
+====================================
+CREATE NEW ADMIN USER
+====================================
+
+====================================
+CONFIGURATION FILE UPDATES
+====================================
+	UPDATE DB_NAME "** OBSCURED **"
+	UPDATE DB_USER "** OBSCURED **"
+	UPDATE DB_PASSWORD "** OBSCURED **"
+	UPDATE DB_HOST ""localhost""
+	REMOVE WPCACHEHOME
+	
+*** UPDATED WP CONFIG FILE ***
+
+====================================
+HTACCESS UPDATE MODE: "NEW"
+====================================
+- PASS: Successfully created a new .htaccess file.
+- PASS: Existing Apache '.htaccess__[HASH]' was removed
+
+====================================
+GENERAL UPDATES & CLEANUP
+====================================
+
+====================================
+DEACTIVATE PLUGINS CHECK
+====================================
+Auto Deactivated plugins list here: Array
+(
+    [0] => really-simple-ssl/rlrsssl-really-simple-ssl.php
+    [1] => simple-google-recaptcha/simple-google-recaptcha.php
+    [2] => js_composer/js_composer.php
+)
+
+MAINTENANCE MODE DISABLE
+
+====================================
+NOTICES TEST
+====================================
+No General Notices Found
+
+
+====================================
+CLEANUP TMP FILES
+====================================
+
+====================================
+FINAL REPORT NOTICES
+====================================
+
+STEP-3 COMPLETE @ 08:07:33 - RUNTIME: 0.1213 sec. 
+
+
+====================================
+FINAL REPORT NOTICES LIST
+====================================
+-----------------------
+[INFO] No general notices
+	SECTIONS: general
+
+-----------------------
+[INFO] No errors in database
+	SECTIONS: database
+
+-----------------------
+[INFO] No search and replace data errors
+	SECTIONS: search_replace
+
+-----------------------
+[INFO] No files extraction errors
+	SECTIONS: files
+
+====================================
